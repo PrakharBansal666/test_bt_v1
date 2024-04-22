@@ -1,0 +1,9 @@
+<launch>
+    <!-- For Emergency Kill Switch-->
+    <!--publisher-->
+    <node pkg="test_bt" type="kill_pub.py" name="kill_pub" output="screen">
+    </node>
+    <!--subscriber-->
+    <node pkg="test_bt" type="kill_sub.py" name="kill_sub" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+    <!-- For arUco Detection-->
+    <!--publisher-->
+    <!-- <node pkg="test_bt" type="camera_pub.py" name="camera_pub" output="screen">
+    </node> -->
+    <!--subscriber-->
+    <!-- <node pkg="test_bt" type="aruco_sub.py" name="aruco_sub" output="screen">
+    </node> -->
+    <node pkg="test_bt" type="temp_cam.py" name="temp_cam" output="screen">
+    </node>
+</launch>
